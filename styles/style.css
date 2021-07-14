@@ -175,3 +175,37 @@ header{
         width: 70%;
     }
 }
+/* ------------------
+    Tablet Device
+------------------ */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .top-bar{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .top-container{
+        width: 100%;
+        padding: 25px;
+    }
+    .top-banner{
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+    }
+    .top-banner img{
+        width: 80%;
+        height: auto;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+    .footer-container{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
