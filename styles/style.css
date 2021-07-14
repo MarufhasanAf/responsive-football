@@ -126,3 +126,52 @@ header{
     color: #000000;
     font-size: 20px;
 }
+/* ----------------
+    Media Query
+---------------- */
+/* ----------------
+    Mobile Device
+---------------- */
+@media only screen and (max-width: 688px) {
+    .container{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .top-container{
+        width: 100%;
+        padding: 0 16px;
+        justify-content: center; 
+    }
+    .top-bar {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .top-title{
+        font-size: 36px;
+    }
+    .top-banner{
+        margin-top: 50px;
+    }
+    .top-banner img{
+        width: 100%;
+        height: auto;
+    }
+    .players{
+        margin-bottom: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center ;
+        flex-direction: column;
+    }
+    .player{
+        width: 90%;
+    }
+    .footer-container{
+        width: 90%;
+        padding: 0px 15px;
+        margin-bottom: 150px;
+    }
+    .footer-logo img{
+        width: 100%;
+        height: auto;
+    }
+}
