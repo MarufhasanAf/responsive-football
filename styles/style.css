@@ -101,7 +101,46 @@ header{
 /* -------------------
     fixtures style
 ------------------- */
-
+.fixtures{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.fixtures-container{
+    background-image: linear-gradient(rgba(19, 19, 19, 0.481), rgba(4, 23, 97, 0.755));
+    width: 1050px;
+    color: white;  
+}
+.fixtures-padding{
+    margin: 30px 100px;
+    padding-bottom: 70px;
+}
+.fixtures-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.fixture-left, .fixture-name{
+    font-size: 35px;
+    color: rgb(3, 3, 130);
+}
+.fixture-title{
+    font-size: 45px;
+    color: rgb(5, 60, 77);
+    text-align: center;
+}
+.fixture-content{
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid rgba(245, 222, 179, 0.563);
+}
+.fixture-content h2{
+    font-size: 27px;
+    color: black;
+}
+.middle-content{
+    padding: 0px 40px;
+    display: inline-block;
+}
 /* -------------------
     Footer Style
 ------------------- */
@@ -166,6 +205,15 @@ header{
     }
     .player-image {
         width: 100%;
+    }
+    .fixtures h2 {
+        font-size: 20px;
+    }
+    .fixture-container{
+        width: 100%;
+    }
+    .fixtures-padding{
+        margin: 0px;
     }
     .footer-container{
         width: 100%;
