@@ -99,6 +99,29 @@ header{
     line-height: 26px;
 }
 /* -------------------
+    fixtures style
+------------------- */
+.fixtures{
+    display:flex;
+    justify-content: center;
+}
+.fixtures-container{
+    background-color: rgba(0, 0, 0, 0.563);
+    width: 1050px;
+    
+}
+.fixtures-padding{
+    margin: 10px 100px;
+}
+.fixtures-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.fixture-left, .fixture-name{
+    font-size: 35px;
+    color: white;
+}
+/* -------------------
     Footer Style
 ------------------- */
 .footer-container{  
