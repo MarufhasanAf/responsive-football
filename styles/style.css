@@ -141,6 +141,49 @@ header{
     padding: 0px 40px;
     display: inline-block;
 }
+/* ----------------------------
+    Registration and Ranking
+----------------------------- */
+.Ranking{
+   
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.ranking-container{
+    width: 1050px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.268), rgba(6, 22, 141, 0.686));
+}
+.ranking-margin{
+    margin: 30px 40px;   
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+}
+.ranking-container h1{
+    font-size: 40px;
+    color: white;
+}
+.form input{
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 3px;    
+}
+#input{
+    display: block;
+}
+#submit{
+    background-color: rgba(39, 49, 37, 0.726);
+    color: rgb(231, 227, 223);
+    width: 80px;
+    border-radius: 3px;
+} 
+.ranking li{
+    font-size: 20px;
+}
+
 /* -------------------
     Footer Style
 ------------------- */
@@ -215,6 +258,12 @@ header{
     .fixtures-padding{
         margin: 0px;
     }
+    .ranking-container{
+        width: 100%;
+    }
+    .ranking-margin{
+        grid-template-columns: repeat(1, 1fr);
+    }
     .footer-container{
         width: 100%;
         padding-bottom: 150px;
@@ -262,5 +311,8 @@ header{
     .footer-container{
         width: 100%;
         margin-bottom: 50px;
+    }
+    .ranking-container{
+        width: 100%;
     }
 }
