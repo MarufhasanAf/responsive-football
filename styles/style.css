@@ -256,6 +256,9 @@ header{
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 20px;
     }
+    .fixture-container{
+        width: 100%;
+    }
     .footer-container{
         width: 100%;
         margin-bottom: 50px;
