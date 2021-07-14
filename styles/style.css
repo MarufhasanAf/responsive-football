@@ -168,10 +168,9 @@ header{
     .footer-container{
         width: 90%;
         padding: 0px 15px;
-        margin-bottom: 150px;
     }
     .footer-logo img{
-        width: 100%;
+        width: 80%;
         height: auto;
     }
 }
