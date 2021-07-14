@@ -66,7 +66,7 @@ header{
 /* -------------------
     Players style
 ------------------- */
-#player-bg{
+.player-bg{
     background-color: white;
     display: flex;
     justify-content: center;
@@ -132,45 +132,46 @@ header{
 /* ----------------
     Mobile Device
 ---------------- */
-@media only screen and (max-width: 688px) {
-    .container{
-        width: 100%;
-        padding: 0 15px;
-    }
-    .top-container{
-        width: 100%;
-        padding: 0 16px;
-        justify-content: center; 
-    }
-    .top-bar {
-        grid-template-columns: repeat(1, 1fr);
+@media only screen and (max-width:688px) {
+    
+    .top-bar, .players{
+         grid-template-columns: repeat(1, 1fr);
+         grid-gap: 0;
     }
     .top-title{
         font-size: 36px;
     }
-    .top-banner{
-        margin-top: 50px;
+    .top-container, .container{
+        width: 100%;
+        padding: 15px;
     }
-    .top-banner img{
+    .top-banner{
+        margin-top: 60px;
+    }
+    .top-banner img {
         width: 100%;
         height: auto;
     }
     .players{
+        margin-top: 40px;
         margin-bottom: 60px;
-        display: flex;
-        align-items: center;
-        justify-content: center ;
-        flex-direction: column;
     }
     .player{
-        width: 90%;
+        width: 92%;
+        margin-bottom: 24px;    
+    }
+    .player-image {
+        width: 100%;
     }
     .footer-container{
-        width: 90%;
-        padding: 0px 15px;
+        width: 100%;
+        padding-bottom: 150px;
+    }
+    .footer-logo{
+        display: flex;
+        justify-content: center;
     }
     .footer-logo img{
-        width: 80%;
-        height: auto;
+        width: 70%;
     }
 }
